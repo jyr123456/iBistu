@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">iBistu</string>
+	<string name="next_step">下一步</string>
+	<string name="login">登录</string>
+	<string name="password">密码</string>
+	<string name="enter">登录</string>
+</resources>

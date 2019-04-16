@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	
+	<!--	<TextView-->
+	<!--			android:id="@+id/people_fragment"-->
+	<!--			android:layout_width="wrap_content"-->
+	<!--			android:layout_height="wrap_content"-->
+	<!--			android:text="Mine"/>-->
+	
+	
+	<LinearLayout
+			android:id="@+id/mine_info"
+			android:layout_width="match_parent"
+			android:layout_height="100dp"
+			android:orientation="horizontal">
+		
+		<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@mipmap/ic_launcher"
+				android:layout_gravity="center"
+				android:layout_marginStart="8dp"/>
+		
+		<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_marginStart="16dp">
+			
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="User Name"
+					android:textSize="24sp"/>
+			
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Uer ID "
+					android:textSize="20sp"
+					android:layout_marginTop="20dp"/>
+		</LinearLayout>
+	</LinearLayout>
+	
+	<View
+			android:id="@+id/border"
+			android:layout_below="@id/mine_info"
+			android:layout_width="match_parent"
+			android:layout_height="10dp"
+			android:background="@color/gray"/>
+	
+	
+	<LinearLayout
+			android:layout_below="@id/border"
+			android:layout_width="match_parent"
+			android:layout_height="64dp"
+			android:orientation="horizontal"
+			android:gravity="center_vertical">
+		
+		<ImageView
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:src="@mipmap/ic_launcher"
+				android:layout_marginStart="8dp"/>
+		
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="16dp"
+				android:textSize="16sp"
+				android:text="设置"/>
+		
+	</LinearLayout>
+</RelativeLayout>
